@@ -19,7 +19,7 @@ void loop() {
   for (int i = 0; i < 10; i++) {
     digitalWrite(LED_PIN, toggle);
     toggle = 1 - toggle;
-    delay(200); // 0.2초 동안 유지
+    delay(100); // 0.2초 동안 유지
   }
 
   while(1){ 
